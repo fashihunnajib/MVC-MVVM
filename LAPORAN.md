@@ -1,11 +1,11 @@
 # Laporan Praktikum: Arsitektur MVC & MVVM dan Pengujian Flutter
 
 ## Identitas Mahasiswa
-- **Nama:** <Isi Nama Lengkap>
-- **NIM:** <Isi NIM>
-- **Kelas / Prodi:** <Isi Kelas, misal: 2E / TRPL>
+- **Nama:** Ahmad Fashihun Najib
+- **NIM:** 362558302002
+- **Kelas / Prodi:** 2E / TRPL
 - **Mata Kuliah:** Pemrograman Perangkat Bergerak
-- **Repository & Commit:** <Isi tautan repository dan hash commit>
+- **Repository & Commit:** https://github.com/fashihunnajib/MVC-MVVM
 
 ---
 
