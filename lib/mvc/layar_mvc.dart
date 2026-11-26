@@ -24,13 +24,20 @@ class _LayarMvcState extends State<LayarMvc> {
     setState(() => _pengendali.ubahStatus(id));
   }
 
+  void _ubahFilter(bool nilai) {
+    setState(() => _pengendali.ubahFilter(nilai));
+  }
+
   @override
   Widget build(BuildContext context) => PanelTugas(
     judul: 'Daftar Tugas · MVC',
-    daftar: _pengendali.daftar,
+    daftar: _pengendali.daftarTerlihat,
+    totalTugas: _pengendali.totalTugas,
     jumlahSelesai: _pengendali.jumlahSelesai,
     galat: _pengendali.galat,
+    selected: _pengendali.filterBelumSelesai,
     onTambah: _tambah,
     onUbahStatus: _ubahStatus,
+    onSelected: _ubahFilter,
   );
 }

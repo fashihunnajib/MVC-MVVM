@@ -1,0 +1,11 @@
+2026-11-26 02:30:44.210: [INFO] CurrentProfilePath: C:\Users\njb\AppData\Local\Temp\flutter_tools.dde4bc21\flutter_tools_chrome_device.25967cd4\Default
+2026-11-26 02:30:44.210: [INFO] Profiles total count: 1
+2026-11-26 02:30:44.210: [INFO] Profile: name=Profile 1 path=C:\Users\njb\AppData\Local\Temp\flutter_tools.dde4bc21\flutter_tools_chrome_device.25967cd4\Default lastActive=null
+2026-11-26 02:30:44.210: [INFO] LastUsedProfileDir: C:\Users\njb\AppData\Local\Temp\flutter_tools.dde4bc21\flutter_tools_chrome_device.25967cd4\Default
+2026-11-26 02:30:44.210: [INFO] VisibilityChanged: 0
+2026-11-26 02:30:44.267: [INFO] OnDoneLoading sync enabled: 0
+2026-11-26 02:30:44.267: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-26 02:30:44.267: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-26 02:30:44.267: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-26 02:30:44.272: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-26 04:07:36.600: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

@@ -8,9 +8,16 @@ class TugasViewModel extends ChangeNotifier {
 
   final RepositoriTugas _repo;
   String? _galat;
+  bool _filterBelumSelesai = false;
 
   List<Tugas> get daftar => _repo.daftar;
+  List<Tugas> get daftarTerlihat =>
+      _filterBelumSelesai
+          ? daftar.where((tugas) => !tugas.selesai).toList()
+          : daftar;
   String? get galat => _galat;
+  bool get filterBelumSelesai => _filterBelumSelesai;
+  int get totalTugas => daftar.length;
   int get jumlahSelesai => daftar.where((tugas) => tugas.selesai).length;
 
   bool tambah(String input) {
@@ -23,6 +30,11 @@ class TugasViewModel extends ChangeNotifier {
 
   void ubahStatus(int id) {
     _repo.ubahStatus(id);
+    notifyListeners();
+  }
+
+  void ubahFilter(bool nilai) {
+    _filterBelumSelesai = nilai;
     notifyListeners();
   }
 }

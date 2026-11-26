@@ -27,6 +27,10 @@ void main() {
       await tester.tap(find.byType(CheckboxListTile));
       await tester.pumpAndSettle();
       expect(find.text('1 dari 1 selesai'), findsOneWidget);
+
+      await tester.tap(find.byType(CheckboxListTile));
+      await tester.pumpAndSettle();
+      expect(find.text('0 dari 1 selesai'), findsOneWidget);
     });
   }
 }
