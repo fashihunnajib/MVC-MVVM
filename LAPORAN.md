@@ -147,7 +147,7 @@ Keempat tangkapan layar diambil dengan dua tugas yang sama (`Rancang UI Flutter`
 
 | Kondisi | Berkas Gambar | Ringkasan & Daftar yang Tampil |
 |---|---|---|
-| **MVC — Filter Mati** | [mvc-filter-mati.png](bukti/mvc-filter-mati.png) | Ringkasan `1 dari 2 selesai`, chip belum terpilih, 2 tugas tampil. |
-| **MVC — Filter Aktif** | [mvc-filter-aktif.png](bukti/mvc-filter-aktif.png) | Ringkasan tetap `1 dari 2 selesai`, chip terpilih, hanya `Catat hasil pengujian` tampil. |
-| **MVVM — Filter Mati** | [mvvm-filter-mati.png](bukti/mvvm-filter-mati.png) | Ringkasan `1 dari 2 selesai`, chip belum terpilih, 2 tugas tampil. |
-| **MVVM — Filter Aktif** | [mvvm-filter-aktif.png](bukti/mvvm-filter-aktif.png) | Ringkasan tetap `1 dari 2 selesai`, chip terpilih, hanya `Catat hasil pengujian` tampil. |
+| **MVC — Filter Mati** | ![MVC Filter Mati](bukti/mvc-filter-mati.png) | Ringkasan `1 dari 2 selesai`, chip belum terpilih, 2 tugas tampil. |
+| **MVC — Filter Aktif** | ![MVC Filter Aktif](bukti/mvc-filter-aktif.png) | Ringkasan tetap `1 dari 2 selesai`, chip terpilih, hanya `Catat hasil pengujian` tampil. |
+| **MVVM — Filter Mati** | ![MVVM Filter Mati](bukti/mvvm-filter-mati.png) | Ringkasan `1 dari 2 selesai`, chip belum terpilih, 2 tugas tampil. |
+| **MVVM — Filter Aktif** | ![MVVM Filter Aktif](bukti/mvvm-filter-aktif.png) | Ringkasan tetap `1 dari 2 selesai`, chip terpilih, hanya `Catat hasil pengujian` tampil. |
